@@ -2,6 +2,10 @@
 
 A healthcare reminder web application designed for accessibility and ease of use. PocketCare helps users manage medication schedules and medical appointments with a simple, clean interface.
 
+## Live Deployment
+
+🌐 **[pocketcare.vercel.app](https://pocketcare.vercel.app)**
+
 ## Usage
 
 ### First Time Setup

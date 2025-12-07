@@ -58,8 +58,8 @@ const ProgressBar = ({
       </div>
       <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
         <div
-          className={`h-full ${color} transition-all duration-500 rounded-full flex items-center justify-end pr-2`}
-          style={{ width: `${percentage}%` }}
+          className={`progress-bar h-full ${color} transition-all duration-500 rounded-full flex items-center justify-end pr-2`}
+          style={{ '--progress-width': `${percentage}%` } as React.CSSProperties}
           data-testid="progress-fill"
         >
           {percentage > 15 && (
